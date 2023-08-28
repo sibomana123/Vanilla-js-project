@@ -17,8 +17,6 @@ btn.addEventListener('click', () => {
   document.body.style.backgroundColor = HexColor;
 })
 
-
-
 // function randomNumber() {
 //  return Math.floor(Math.random()* hex.length)
 // }
