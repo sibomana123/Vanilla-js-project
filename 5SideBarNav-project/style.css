@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.sidebar-toggle {
+  float: right;
+  color: rgb(155, 199, 240);
+  margin-right: 4rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.sidebar-toggle:hover {
+  transform: rotate(90deg);
+  color: black;
+  background-color: aqua;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar{
+  padding: 2rem;
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: white; 
+  top: 0;
+  left: -100%; 
+  position: fixed;
+}
+
+.show-sidebar {
+  left: 0;
+  padding: 2rem;
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: white; 
+  top: 0;
+  position: fixed;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 6rem;
+}
+
+.close-btn {
+  background-color: transparent;
+  font-size: 2rem;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.links a {
+  font-size: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+}
